@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Brand_names4">     //lista me ta eidh
+        <item>(all)</item>
+        <item>Hugo Boss</item>
+        <item>Trusardi</item>
+        <item>Axe</item>
+        <item>Gucci</item>
+    </string-array>
+</resources>

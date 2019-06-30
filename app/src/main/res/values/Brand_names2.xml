@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="Brand_names2">     //lista me ta eidh
+    <item>(all)</item>
+    <item>Kri Kri</item>
+    <item>Creta Farm</item>
+    <item>Nikas</item>
+    <item>Ifantis</item>
+</string-array>
+</resources>

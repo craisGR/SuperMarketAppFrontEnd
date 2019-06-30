@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="match_parent"
+        android:id="@+id/item_photo"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+        <!-- Name Label -->
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1546e6"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="6dip"
+            android:paddingBottom="2dip" />
+        <!-- Description label -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Cost Label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#acacac"
+                android:gravity="left"
+                android:text="Brand: ">
+            </TextView>
+<TextView
+                android:id="@+id/item_brand"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ed1414"
+                android:textStyle="bold"
+                android:paddingBottom="2dip">
+            </TextView>
+
+        </LinearLayout>
+        <!-- Description label -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Cost Label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#acacac"
+                android:gravity="left"
+                android:text="Category: " >
+            </TextView>
+            <TextView
+                android:id="@+id/item_category"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold"
+                android:paddingBottom="2dip">
+            </TextView> </LinearLayout>
+        <!-- Linear la </LinearLayout>yout for cost and price Cost: Rs.100 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Cost Label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#acacac"
+                android:gravity="left"
+                android:text="Price: " >
+            </TextView>
+            <!-- Price Label -->
+            <TextView
+                android:id="@+id/item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#5d5d5d"
+                android:textStyle="bold|italic"
+                android:gravity="left">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#5d5d5d"
+                android:gravity="left"
+                android:text=" €"
+                android:textStyle="bold|italic">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

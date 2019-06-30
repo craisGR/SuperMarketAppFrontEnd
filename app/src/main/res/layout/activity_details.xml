@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.leonidas.supermarketapp.DetailsActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+            <!-- Name Label -->
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageViewPhoto"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center_horizontal|right"
+                android:maxHeight="50dp"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1546e6"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingTop="6dip"
+                android:paddingBottom="2dip" />
+            <!-- Description label -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!-- Cost Label -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#acacac"
+                    android:gravity="left"
+                    android:text="Brand: ">
+                </TextView>
+                <TextView
+                    android:id="@+id/item_brand"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ed1414"
+                    android:textStyle="bold"
+                    android:paddingBottom="2dip">
+                </TextView>
+
+            </LinearLayout>
+            <!-- Description label -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!-- Cost Label -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#acacac"
+                    android:gravity="left"
+                    android:text="Category: " >
+                </TextView>
+                <TextView
+                    android:id="@+id/item_category"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5d5d5d"
+                    android:textStyle="bold"
+                    android:paddingBottom="2dip">
+                </TextView> </LinearLayout>
+            <!-- Linear la </LinearLayout>yout for cost and price Cost: Rs.100 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!-- Cost Label -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#acacac"
+                    android:gravity="left"
+                    android:text="Price: " >
+                </TextView>
+                <!-- Price Label -->
+                <TextView
+                    android:id="@+id/item_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5d5d5d"
+                    android:textStyle="bold|italic"
+                    android:gravity="left">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5d5d5d"
+                    android:gravity="left"
+                    android:text=" €"
+                    android:textStyle="bold|italic">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!-- Cost Label -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#acacac"
+                    android:gravity="left"
+                    android:text="Details: " >
+                </TextView>
+                <TextView
+                    android:id="@+id/item_details"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5d5d5d"
+                    android:textStyle="italic"
+                    android:paddingBottom="2dip">
+                </TextView> </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_button_buy"
+        android:id="@+id/ButtonBuy"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

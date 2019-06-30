@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Brand_names5">     //lista me ta eidh
+        <item>(all)</item>
+        <item>Coca Cola</item>
+        <item>Pepsi</item>
+        <item>Nektar</item>
+        <item>Loux</item>
+    </string-array>
+</resources>

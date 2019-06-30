@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_category">     //lista me ta eidh
+        <item>(all)</item>
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Cosmetics</item>
+        <item>Drinks</item>
+    </string-array>
+</resources>

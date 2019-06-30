@@ -1,0 +1,74 @@
+{
+  "Items": [
+    {
+      "ID": 1,
+      "PRODUCTNAME": "STRAGGISTO 2%",
+      "BRANDNAMEID": 1,
+      "CATEGORYID": 1,
+      "SMURL": "http://www.krikri.gr",
+      "COVERURL": "http://www.krikri.gr/dyn/yogurt/big/110314161911.png",
+      "PRICE": 1.27,
+      "DETAILS":"The fat content of yogurt is variable, depending on the type. Most yogurts sold commercially are low-fat or fat-free."
+    },
+    {
+      "ID": 2,
+      "PRODUCTNAME": "FANTA WATERMELON",
+      "BRANDNAMEID": 1,
+      "CATEGORYID": 4,
+      "SMURL": "http://www.fanta.gr/el/home/",
+      "COVERURL": "https://s-media-cache-ak0.pinimg.com/736x/5e/71/a1/5e71a1aa4db431d41c294b57da6d349a.jpg",
+      "PRICE": 5.22,
+      "DETAILS":"Fanta Soft Drink Sour Watermelon"
+    },
+    {
+      "ID": 3,
+      "PRODUCTNAME": "T SHIRT XXL BLUE",
+      "BRANDNAMEID": 1,
+      "CATEGORYID": 2,
+      "SMURL": "http://www.amazon.com/Toronto-Vintage-Throwback-Light-Shirt/dp/B001EPMIJ6",
+      "COVERURL": "http://ecx.images-amazon.com/images/I/31IhqgwozpL.jpg",
+      "PRICE": 6.24,
+      "DETAILS":"Made in China"
+    },
+    {
+      "ID": 4,
+      "PRODUCTNAME": "AXE APOLLO 400ML",
+      "BRANDNAMEID": 3,
+      "CATEGORYID": 3,
+      "SMURL": "https://www.unilever.gr/brands/our-brands/axe.html",
+      "COVERURL": "http://b.bpcdn.pstatic.gr/P/bpimg43/1cWwj_SX170Y170/axe-dark-temptation-shower-gel-250ml.jpg",
+      "PRICE": 3.99,
+      "DETAILS":"Premium daily fragrance. Stay smelling great. All day. A classically masculine, sophisticated fragrance with an addictive edge"
+    },
+    {
+      "ID": 5,
+      "PRODUCTNAME": "TRAINING SHOES",
+      "BRANDNAMEID": 4,
+      "CATEGORYID": 2,
+      "SMURL": "http://www.aimshoebuy.com/nike-free-mens/nike-free-run+-2-mens-shoes/2012-nike-free-run+-2-men-shoes-blue-black-green.html#.Vw8UFPmLSUk",
+      "COVERURL": "https://s-media-cache-ak0.pinimg.com/736x/5d/ce/90/5dce9086c2706fa6b6ffdb000b13d238.jpg",
+      "PRICE": 46.49,
+      "DETAILS":"Training is already hard enough. Make sure you're in the right shoe to help you train correctly"
+    },
+    {
+      "ID": 6,
+      "PRODUCTNAME": "PARIZAKI",
+      "BRANDNAMEID": 3,
+      "CATEGORYID": 1,
+      "SMURL": "http://www.shopnsave.gr/main_list.php?cPath=299",
+      "COVERURL": "http://www.shopnsave.gr/thumbnails/images/Nikas%20Parizaki%20KlasikoNEW_1347022619.jpg.thumb_300x300_3237c1a7fc123dad807ad83ad14a6e52.jpg",
+      "PRICE": 2.98,
+      "DETAILS":"100% made from Pork"
+    },
+    {
+      "ID": 7,
+      "PRODUCTNAME": "GKAZOZA 330ML",
+      "BRANDNAMEID": 3,
+      "CATEGORYID": 4,
+      "SMURL": "http://www.amazon.co.uk/gp/product/057123870X/ref=s9_qpp_gw_p14_d99_i12?pf_rd_m=A3P5ROKL5A1OLE&pf_rd_s=desktop-1&pf_rd_r=1MBS7F7H4FTG0665Q17Q&pf_rd_t=36701&pf_rd_p=577047927&pf_rd_i=desktop",
+      "COVERURL": "http://www.mamashome.gr/files/products/resized/248087_284x.jpg",
+      "PRICE": 0.67,
+      "DETAILS":"Colorless, lemon and lime flavored, caffeine-free soft drink"
+    }
+  ]
+}
